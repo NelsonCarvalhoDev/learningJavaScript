@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando Nacionalidade</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font: 20pt Arial;
+        }
+        h1{
+            color: purple;
+            font: 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verifique sua Nacionalidade</h1> 
+    <p>Digite sua Nacionalidade:</p> 
+    <input type="text" name="text" id="nacionalidade">
+    <input type="button" value="Verificar" onclick="paisDeOrigem()">
+    <div id="res">
+ 
+    </div>
+    <script>
+         //var txtv = document.getElementById('txtvel')
+         function paisDeOrigem(){
+ 
+             var pais = document.querySelector('input#nacionalidade')
+             var res = document.querySelector('div#res')
+             var origem = String(pais.value)
+             res.innerHTML = `<p>Vivendo em: ${origem}</p>`
+             
+             if (origem == 'Brasil'){
+                 res.innerHTML += `<p>Brasileiro!</p>`
+             }else {
+                res.innerHTML += `<p>Estrangeiro!</p>`
+             }
+             res.innerHTML = `<p>Sua nacionalidade é: ${país}</p>`
+         }
+    </script>
+</body>
+</html>
