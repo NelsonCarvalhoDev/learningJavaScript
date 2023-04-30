@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de número</title>
+    <!-- Linkando CSS -->
+    <link rel="stylesheet" href="site.css">
+
+</head>
+<body>
+    <header>
+        <h1>
+            Analisador de número
+        </h1>
+    </header>
+    <section>
+        <div>
+            Número (Entre 1 e 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            <br><input type="button" value="Finalizar" onclick="finalizar()">
+            <input type="button" value="Limpar" onclick="limpar()">
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; MamboDark</p>
+    </footer>
+    <script src="site.js"></script>
+</body>
+</html>
