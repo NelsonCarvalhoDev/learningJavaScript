@@ -1,9 +1,7 @@
-# aprendizadoEmJavascript
+## Cursos Básicos e avançados em Java Script!
 
-Cursos Básicos e avançados em Java Script!
-
-Fontes: 
-CURSO EM VIDEO:
+Fontes: <br><br>
+CURSO EM VIDEO:<br>
 https://www.cursoemvideo.com/curso/javascript
-MATHEUS BATTISTI:
+<br>MATHEUS BATTISTI:<br>
 https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6
