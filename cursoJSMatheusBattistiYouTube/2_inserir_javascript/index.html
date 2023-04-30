@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inserir JavaScript</title>
+    <title>2 - Inserir JavaScript</title>
+
+    <!--Inserindo no HEAD o arquivo sera carregado primeiro. -->
+    <script src="js/script.js"></script>
+
 </head>
 <body>
-    <h1>Inserindo JavaScript</h1>
+    <h1>Inserindo JavaScript na pagina.</h1>
+
+    <!-- Script inserido pela tag. -->
+    <script>
+        console.log("Script pela tag dentro do HTML!")
+    </script>
+
+    <!--Espera o HTML ser carregado primeiro mais interessante para otimizar o site. Deixando o script ser carregado por ultimo. -->
+    <script src="js/script2.js"></script>
 </body>
 </html>
