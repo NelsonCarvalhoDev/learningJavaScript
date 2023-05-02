@@ -34,3 +34,13 @@ if(1 == 1 && 3 > 2 && true){ // Pode se encadear quantas expressões necessária
 if((1 == 1 && 3 > 2) && true){ // Pode se isolar com parenteses() a operação ser resolvida primeiro.
     console.log('Passou')
 }
+
+
+
+var nome = 'Andressa';
+var idade = '25';
+
+if(nome == 'Andressa' && idade == '25'){
+    console.log('Verificando...');
+    //alert('Andressa com 25 anos!');
+}
