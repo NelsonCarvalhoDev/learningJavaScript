@@ -5,7 +5,7 @@ Funções são blocs de códigos reutilizáveis;
 Ou seja, evitamos a repetição da lógica de um programa em diversas partes do código;
 A função precisa ser invocada para ser executada, colocar o nome da função e colocar parenteses;
 Algumas funções tem o return, que e o retorno da função para o usuário o retorno não é obrigatório;
-*/
+
 
 console.log('Funções: ')
 
@@ -58,3 +58,17 @@ console.log(somaDois);
 
 // De forma prática também é possível apenas imprimir o resultado:
 console.log(soma(4, 5));
+
+*/
+
+//Arrow function de sintaxe curta:
+
+soma = (a, b) => a + b;
+
+//Imprimindo resultado da função na tela dop HTML:
+
+document.getElementById("test").innerHTML = soma(2, 6);
+
+//console.log(soma(2, 5));
+
+
