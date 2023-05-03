@@ -11,7 +11,7 @@ Estrutura while:
 O while é a estrutura de repetição mais simples do JavaScript;
 A ideia é que se repita algo até atingir tal condição;
 While == Enquanto;
-*/
+
 
 
 console.log('Estruturas de repetição: ')
@@ -56,3 +56,4 @@ while(i < 6){
 }
 
 console.log('==================================================================')
+*/
